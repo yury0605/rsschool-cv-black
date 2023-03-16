@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width:100%;
+    }
+}
+
+body {
+   max-width: 1120px;
+   width: 80%;
+   font-family: 'Inter'; 
+   line-height: 1.5;
+   background-color: rgb(238, 236, 236);
+   margin-right: auto;
+   margin-left: auto;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+* {
+    box-sizing: border-box;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #829985;
+}
+
+h2 {
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(233, 227, 150);
+   
+}
+
+.git-link {
+    color:#1d2722;   
+}
+
+.nav-link {
+   padding: 15px 20px; 
+   line-height: 50px;
+   transition: 0.3s;
+   background-color: rgb(233, 227, 150);
+   text-decoration: none;
+   color: #435345;
+   font-weight: 600;
+}
+
+.nav-link:hover {
+    background-color: rgb(238, 236, 236);
+    border: 1px solid rgb(177, 165, 165);
+    transition: 0.5s;
+}
+
+.section {
+width: 50%;
+border: 1px solid rgb(177, 165, 165);
+padding: 20px;
+}
+#contacts{
+  border-radius: 2% 0 0 0;  
+  border-right: none;
+  border-bottom: none;
+}
+#my-image{
+    border-radius: 0 2% 0 0; 
+    border-left: none;
+    border-bottom: none; 
+}
+#summary{
+    border-right: none;
+    border-bottom: none; 
+}
+#skills{
+    border-left: none;
+    border-bottom: none;  
+    border-top: none;
+}
+#code{
+    border-top: none;
+    border-right: none;
+    border-radius: 0 0 0 2%; 
+    padding-bottom: 0;
+}
+#english{
+    border-radius: 0 0 2% 0; 
+    padding-bottom: 0;
+}
+.section-title1 {
+    
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-progile-img {
+    width: 250px;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 10%;
+  
+}
+
+.footer {
+    background-color: rgb(233, 227, 150);
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo-rs-footer{
+    width: 25%;
+    height: 25%; 
+    }
+.logo-rs-head{
+    margin-top: auto;
+    
+    width: 40%;
+    height: 40%; 
+}
+
+.prgr-html{
+    margin-left: 25px;
+}
+.prgr-js {
+    margin-left: 40px;
+}
+.prgr-git{
+    margin-left: 96px;
+}
+.prgr-fig{
+    margin-left: 72px;
+}
+.prgr-tp{
+    margin-left: 38px;
+}
+.prgr-rjs{
+    margin-left: 55px;
+}
+.prgr-njs{
+    margin-left: 57px;
+}
+progress::-webkit-progress-bar{
+   background-color: rgb(238, 236, 236);
+   border: 1px solid rgb(177, 165, 165);
+   border-radius: 10px;
+}
+progress::-webkit-progress-value{
+    background-color: #829985;
+    
+}
+progress{
+    background-color: rgb(238, 236, 236);
+ }
